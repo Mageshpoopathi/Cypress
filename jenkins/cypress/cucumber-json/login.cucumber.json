@@ -1,0 +1,77 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "login to demo cyclos website",
+    "line": 1,
+    "id": "login-to-demo-cyclos-website",
+    "tags": [],
+    "uri": "login.feature",
+    "elements": [
+      {
+        "id": "login-to-demo-cyclos-website;check-invalid-login",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Check invalid login",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "user is on Login Page",
+            "result": {
+              "status": "passed",
+              "duration": 4068000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "user has provided Invalid credentials",
+            "result": {
+              "status": "passed",
+              "duration": 718000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-to-demo-cyclos-website;check-valid-login",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Check valid login",
+        "tags": [
+          {
+            "name": "@valid",
+            "line": 6
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "user is on Login Page",
+            "result": {
+              "status": "passed",
+              "duration": 2999000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "user has provided valid credentials",
+            "result": {
+              "status": "passed",
+              "duration": 15702000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

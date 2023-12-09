@@ -1,0 +1,33 @@
+{
+  "name": "cycloscypress",
+  "version": "2.0.0",
+  "description": "cyclos website",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run --spec cypress\\e2e\\login.feature --config pageLoadTimeout=100000",
+    "runtest":"npm run test --"
+  },
+  "author": "Expleo",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/plugin-proposal-decorators": "^7.22.15",
+    "@babel/plugin-syntax-decorators": "^7.22.10",
+    "@cypress/grep": "^4.0.0",
+    "cypress": "^13.1.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-wait-until": "^2.0.1",
+    "cypress-xpath": "^2.0.1",
+    "multiple-cucumber-html-reporter": "^3.4.0",
+    "neat-csv": "^5.2.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "step_definitions": "cypress/e2e",
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  }
+}

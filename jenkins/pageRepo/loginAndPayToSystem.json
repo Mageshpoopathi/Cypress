@@ -1,0 +1,17 @@
+{
+  "LoginElements": {
+      "LoginLink":"#login-link",
+      "InputUserName": "//input[@placeholder='User']",
+      "InputPassword": "//input[@placeholder='Password']",
+      "SubmitButton": "//*[contains(text(),'Submit')]"},
+  "PaytoSystemElements":{
+      "BankingLink": "//a[@id='menu_banking']",
+      "PayToSystemLink": "(//*[contains(text(),'Payment to system')])[2]",
+      "Amount": "//input[@placeholder='0,00']",
+      "Description": "//textarea",
+      "NextButton": "//*[contains(text(),'Next')]",
+      "ConfirmButton": "//*[contains(text(),'Confirm')]",
+      "successfulPayment":"//*[contains(text(),'The payment was successfully processed')]",
+      "printButton":"//*[contains(text(),'Print')]"
+  }
+    }

@@ -1,0 +1,23 @@
+{
+  "PaytoUserElements": {
+  "payToUser": "(//a[@href=\"/ui/banking/self/payment\"])[2]",
+    "banking": "#menu_banking",
+    "contactButton": "[class='btn btn-icon ml-2']",
+    "contact": "//a[text()=' Golden Travels ']",
+    "amount" : "#id_3",
+    "scheulingClick" : "[class='form-control text-left custom-select w-100']",
+    "monthlyInstallment" :"//a[text()=' Monthly installments ']",
+    "noOfInstallment": "#id_6",
+    "nextButton": "[class='btn d-flex justify-content-center align-items-center w-100 h-100 btn-primary']",
+    "confirmButton" : ".actions > :nth-child(1) > .btn",
+    "notificationMessage":".notification-message"
+},
+  "receivePayment" : {
+    "receivePaymentMenu" : "(//a[@class='nav-item'])[4]",
+    "fromUser" : ".w-100 > .form-control",
+    "amount" : "#id_3",
+    "nextButton" : "(//button[@type='button'])[3]",
+    "userSelect" : ".select-option"
+
+  }
+}
